@@ -1,0 +1,5 @@
+num1_str = input('Please enter a number:')
+num2_str = input('Please enter another number:')
+num1 = int(num1_str)
+num2 = int(num2_str)
+print('The number you entered is :', num1 + num2)
