@@ -10,6 +10,6 @@ s = 'some string'
 # Boolean
 z = True
 
-a = 5
+# a = 5
 b = 9
 print(a + b)
