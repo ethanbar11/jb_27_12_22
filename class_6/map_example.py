@@ -18,7 +18,8 @@ points_mean = df.points.mean()
 def decrease_point_mean(x):
     return x - points_mean
 
+print(df.title.unique())
 
-print('The average of points is', points_mean)
-print(pd.concat((df.points, df.points.map(decrease_point_mean)), axis='columns'))
-print('The average of points after map is',df.points.map(decrease_point_mean).mean())
+# print('The average of points is', points_mean)
+# print(pd.concat((df.points, df.points.map(decrease_point_mean)), axis='columns'))
+# print('The average of points after map is',df.points.map(decrease_point_mean).mean())
