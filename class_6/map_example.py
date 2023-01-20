@@ -9,8 +9,10 @@ df = pd.read_csv(path, index_col=0)
 
 
 def return_value_power_by_2(x):
-    return x ** 2
+    return x / 5
 
+
+df.price.map(return_value_power_by_2)
 
 points_mean = df.points.mean()
 
