@@ -14,11 +14,12 @@ def return_value_power_by_2(x):
 
 points_mean = df.points.mean()
 
+print(df.price - points_mean)
 
-def decrease_point_mean(x):
-    return x - points_mean
-
-print(df.title.unique())
+# def decrease_point_mean(x):
+#     return x - points_mean
+#
+# print(df.title.unique())
 
 # print('The average of points is', points_mean)
 # print(pd.concat((df.points, df.points.map(decrease_point_mean)), axis='columns'))
