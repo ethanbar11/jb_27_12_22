@@ -2,3 +2,6 @@ DateTime:
 
 https://github.com/guipsamora/pandas_exercises/blob/master/09_Time_Series/Apple_Stock/Exercises.ipynb
 (Without 12)
+
+Reference:
+https://towardsdatascience.com/working-with-datetime-in-pandas-dataframe-663f7af6c587
